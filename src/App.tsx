@@ -336,7 +336,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4 text-xs font-mono text-slate-500">
           <div>
             <p>© 2026 S.H.I.E.L.D. Data Operations Center.</p>
-            <p className="mt-0.5">Criado com amor e analogias baseadas em Azure Databricks Lakehouse.</p>
+            <p className="mt-0.5">Criado com amor e analogias baseadas em Azure Databricks Lakehouse por Ricardo da Hora Silva</p>
           </div>
           <div className="flex items-center gap-2 text-cyan-500 font-semibold bg-cyan-950/20 py-1.5 px-3 rounded-lg border border-cyan-800/30">
             <LucideIcons.Shield className="h-4 w-4" />
