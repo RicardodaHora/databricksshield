@@ -7,6 +7,7 @@ import HeroCard from './components/HeroCard';
 import MissionSimulator from './components/MissionSimulator';
 import ArchitectureLab from './components/ArchitectureLab';
 import ArchitectureDiagram from './components/ArchitectureDiagram';
+import leagueOfDataImage from './assets/images/league_of_data_vector_1781883092411.jpg';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<'heroes' | 'simulation' | 'lab' | 'diagram'>('heroes');
@@ -96,7 +97,7 @@ export default function App() {
               
               {/* Main Image generated via tool */}
               <img
-                src="/src/assets/images/league_of_data_vector_1781883092411.jpg"
+                src={leagueOfDataImage}
                 alt="QG Computacional dos Vingadores de Dados"
                 className="w-full h-64 sm:h-72 object-cover group-hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"
