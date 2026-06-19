@@ -1,0 +1,8 @@
+{
+  "name": "A Liga dos Dados",
+  "description": "Uma analogia divertida e interativa com os Vingadores para visualizar e compreender a arquitetura de dados moderna com Azure Databricks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
